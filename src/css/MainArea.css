@@ -1,0 +1,277 @@
+.Main {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.Rside {
+    height: 50rem;
+    width: 21%;
+    margin-left: 2%;
+    flex-wrap: wrap;
+    position: fixed;
+    left: 0;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 550;
+    margin-bottom: 25px;
+}
+
+
+.profile>span{
+    margin-left: 10px;
+}
+.profile>img {
+    border-radius: 50%;
+    width: 10%;
+}
+
+.profiles{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 550;
+    /* padding: 5px; */
+
+}
+
+.profiles>img{
+    border-radius: 10%;
+    width: 30%;
+}
+
+.pro {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    margin-bottom: 20px;
+
+}
+
+.pross {
+    display: flex;
+    align-items: center;
+    font-weight: 550;
+    font-size: 1.5rem;
+    padding: 0 15px 15px 15px;
+    flex-wrap: wrap;
+    padding-left: 1rem;
+    border-bottom: .2rem solid rgb(68, 62, 62);
+}
+
+.Lside {
+    height: 50rem;
+    width: 21%;
+    /* left: 0; */
+    flex-wrap: wrap;
+    position: fixed;
+    right: 0;
+
+}
+
+
+.Contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Contacts {
+    font-size: 1.6rem;
+    font-weight: 550;
+    padding-left: 1rem;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    padding: 2px 20px;
+}
+
+.chaticon {
+    display: flex;
+}
+
+.Profilee{
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 550;
+}
+
+.Profilee>img {
+    border-radius: 80%;
+    width: 10%;
+}
+
+.MainArea {
+    display: grid;
+    width: 60%;
+    height: 30rem;
+    justify-content: center;
+    margin: 0 20%;
+}
+
+.addStory {
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+    color: white;
+    font-size: 1.5rem;
+    height: 20ren;
+    justify-content: flex-start;
+    padding-left: 5%;
+}
+
+.Story {
+    width: 150px;
+    margin:0 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 17rem;
+    border-radius: .5rem;
+    background-color: black;
+}
+
+.message {
+    display: grid;
+    height: 12rem;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.Post {
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    Justify-content: flex-start;
+    background-color: white;
+    margin-left: 0;
+}
+
+
+.Post>div {
+    margin-left: 2px;
+}
+
+.Post>img {
+    height: 45px;
+    border-radius: 50%;
+    width: 45px;
+    margin: 15px;
+    padding-top: 9px;
+}
+
+input[type=Mind] {
+    width: 50%;
+    margin: 15px 0;
+    height: 4rem;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-left: 0;
+    box-sizing: border-box;
+}
+
+
+.Call {
+    border-radius: 12px;
+    margin-left: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    height: 5rem;
+    width: 100%;
+    background-color: white;
+}
+
+.ico {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    font-size: 1rem;
+}
+
+.Posted {
+    display: grid;
+    height: auto;
+    width: 90%;
+    align-items: flex-start;
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 29px;
+}
+
+.postImg{
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+
+.poster {
+    display: flex;
+    justify-content: space-between;
+}
+
+.postBody {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    font-size: 1.5rem;
+    font-weight: 550;
+    width: 67%;
+}
+.postBody>span{
+    margin-top: 8px;
+    display: flex;
+}
+
+.update {
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+
+.edit {
+    margin: 12px;
+}
+
+.caption {
+    font-size: 1.3rem;
+    font-weight: 500;
+    word-wrap: break-word;
+    padding-left: 4%;
+}
+
+.Comment {
+    display: flex;
+    justify-content: space-around;
+    height: 5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Like {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+}

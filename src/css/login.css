@@ -1,0 +1,127 @@
+body {
+    font: 1.6ren helvetica;
+    box-sizing: border-box;
+    background-color: #F0F2F5;
+}
+
+.Login {
+    width: 100%;
+    height: 40ren;
+    display: flex;
+    border-radius: 1ren;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.facebooktext {
+    padding: 1em;
+    font-size: 4ren;
+    color: #1877F2;
+    font-weight: 700;
+}
+
+.title {
+    font-size: 1.8ren;
+    color: Oblack;
+    font-weight: 450;
+}
+
+.loginContainer {
+    border: white 3rem solid;
+    background-color: white;
+    height: 20rem;
+    width: 23rem;
+    padding: 1rem;
+    border-radius: .7rem;
+    margin-top: 3%;
+    margin-bottom: 1rem;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 15px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 15px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    font-size: 1.3em;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #1877f2;
+    border: none;
+    box-sizing: border-box;
+    padding: 15px 32px;
+    Justify-content: center;
+    margin: 4px 2px;
+    border-radius: .3rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.forget a {
+    color: 1877721;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1rem;
+}
+
+.register {
+    display: flex;
+    Justify-content: center;
+    align-items: center;
+    color: #f0f2f5;
+    background-color: #42B72A;
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    width: 70%;
+    font-weight: bold;
+    border-radius: .5rem;
+    margin-left: 15%;
+}
+
+.page a {
+    font-size: 1.2rem;
+    color: black;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.page {
+    font-size: 1rem;
+    padding-left: 45%;
+}
+
+.logindetails {
+    border-bottom: 1rem black solid;
+}
+
+ a {
+    text-decoration: none;
+    color: white
+    
+}
+
+.btn:hover {
+  background-color: #0657c2;
+  cursor: pointer;
+}
